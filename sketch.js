@@ -47,9 +47,9 @@ function draw() {
 }
 
 function keyPressed(){
-  if(keyCode == UP){
+  if(keyCode == 38){
     distance += 5;
-  }else if(keyCode == DOWN){
+  }else if(keyCode == 40){
     distance -= 5;
   }
 }
